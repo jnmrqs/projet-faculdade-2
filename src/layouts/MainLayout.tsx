@@ -17,7 +17,6 @@ const MainLayout: React.FC = () => {
     <div>
       <HeaderComponent />
       <Box style={{ display: 'flex' }}>
-        <CustomDrawer />
         
         {/* Box Main */}
         <Box sx={{ p: 3, overflow: "scroll", flexGrow: 1, scrollbarWidth: "none" }}>
