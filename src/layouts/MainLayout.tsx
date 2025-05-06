@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import HeaderComponent from "../components/HeaderComponent";
 import { Box } from "@mui/material";
-import CustomDrawer from "../components/CustomDrawer";
 import { Outlet, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 
